@@ -18,7 +18,7 @@ Node v14.8.0
 
 <h2>3. Abbreviations</h2><div id="abbreviations"></div>
 
-The following abbreviations are used throughout this document. In the document, its main purpose is to show details how to work with everis everis Plex Platform and its main features through the Plex-SDK.
+The following abbreviations are used throughout this document. In the document, its main purpose is to show details how to work with Plex Platform and its main features through the Plex-SDK.
 
 <strong>API</strong> Application Programming Interface<br><br>
 <strong>SDK</strong> Software Development Kit
@@ -69,7 +69,7 @@ This section introduces the main methods of the Plex SDK and their functionality
 
 <h3>5.1 Health-check calls</h3>
 
-The objective of this feature as its name suggests is to bring some kind of information that clients of the platform can understand as its entire park of devices are going on not just in the current moment but also in the past with our logging system. This functionality is enabled when you invoke method bellow. You can verify the health status of the devices at everis Plex Platform.
+The objective of this feature as its name suggests is to bring some kind of information that clients of the platform can understand as its entire park of devices are going on not just in the current moment but also in the past with our logging system. This functionality is enabled when you invoke method bellow. You can verify the health status of the devices at Plex.
 
 ```
 plex.init()
@@ -78,13 +78,13 @@ plex.init()
 
 <h3>5.2 sendMsg Method(deprecated)</h3>
 
-The main objective of this method is to send a message containing an image data to everis Plex Platform. The img parameter should be a base64-encoded image.
+The main objective of this method is to send a message containing an image data to Plex. The img parameter should be a base64-encoded image.
 
 ```
 (async) sendMsg(img)
 ```
 
-Send an image <strong>(img)</strong> to everis Plex Platform.
+Send an image <strong>(img)</strong> to Plex.
 
 <strong>Parameters:</strong>
 
@@ -110,14 +110,14 @@ Call this method to start to use the Plex health-check system.
 
 <h3>5.4 imgRecognition(img)</h3>
 
-This method receives an img as parameter. everis Plex Platform is going to use some face recognition engine to try to detect a person in img. Client needs to use some recognition phyapp  in Plex Journey to perform it.
+This method receives an img as parameter. Plex is going to use some face recognition engine to try to detect a person in img. Client needs to use some recognition phyapp  in Plex Journey to perform it.
 
 ```
 (async) imgRecognition(img)
 ```
 
 
-Send img to everis Plex Platform to recognize face.
+Send img to Plex to recognize face.
 
 <strong>Parameters:</strong>
 
@@ -127,13 +127,13 @@ Send img to everis Plex Platform to recognize face.
 
 <h3>5.5 imgCharacteristics(img)</h3>
 
-This method receives an image (img) as parameter. everis Plex Platform is going to use some face estimator engine to detect person characteristics such as hair color, gender, age, etc.. Client needs to use some estimator phyapp  in Plex journey.
+This method receives an image (img) as parameter. Plex is going to use some face estimator engine to detect person characteristics such as hair color, gender, age, etc.. Client needs to use some estimator phyapp in Plex journey.
 
 ```
 (async) imgCharacteristics(img)
 ```
 
-Send img to everis Plex Platform to recognize face.
+Send img to Plex to recognize face.
 
 <strong>Parameters:</strong>
 
@@ -149,7 +149,7 @@ This method receives two parameters and persists in the database for future use.
 (async) imgRegister(img, name)
 ```
 
-Send img to everis Plex Platform to register face.
+Send img to Plex to register face.
 
 <strong>Parameters:</strong>
 
@@ -177,14 +177,14 @@ getOriginCode(uuid, callback)
 
 <h2>6. Authentication API</h2><div id="api-auth"></div>
 
-The main objective of this section is to bring some light about authentication in the everis Plex Platform.
-Before starting to authenticate in everis Plex Platform you need to contact the Plex team in order to get a CA, Client certificate and a valid ClientKEY.
+The main objective of this section is to bring some light about authentication in the Plex.
+Before starting to authenticate in Plex you need to contact the Plex team in order to get a CA, Client certificate and a valid ClientKEY.
 As soon as you have this information in hands, you can go ahead with the authentication process.
-The below is the only method necessary to authenticate in everis Plex Platform.
+The below is the only method necessary to authenticate in Plex.
 
 <h3>6.1 Auth(rootCa, clientCert, clientKey)</h3>
 
-This method receives three parameters and tries to authenticate in everis Plex Platform.
+This method receives three parameters and tries to authenticate in Plex.
 
 ```
 auth(rootCA, clientCert, clientKey)
@@ -307,13 +307,13 @@ This section covers the Analytics API, since configuring some fields to send ana
 
 <h3>9.1 sendAnalytics(callback)</h3>
 
-This method is responsible for sending analytics data to everis Plex Platform.
+This method is responsible for sending analytics data to Plex.
 
 ```
 (async) sendAnalytics(callback)
 ```
 
-This method is responsible for sending data to the everis Plex Platform.
+This method is responsible for sending data to the Plex.
 
 <h3>9.2 setAnalyticsClientAbandon(abandon)</h3>
 
@@ -454,7 +454,7 @@ Set the id of a client.
 
 <h3>9.11 Analytics API  - Example of use</h3>
 
-Here is an example of using an analytics API to send data to the everis Plex Platform. In the below example we are using the several methods described in the previous topics.
+Here is an example of using an analytics API to send data to the Plex. In the below example we are using the several methods described in the previous topics.
 
 ```
 
@@ -479,7 +479,7 @@ As you can see in the snippet above, after calling several methods, in the last 
 
 <h3>10.1 updataMonitoringData(data, callback)</h3>
 
-This method is used to update monitoring data in the everis Plex Platform. You need to supply two parameters, see below for more details.
+This method is used to update monitoring data in the Plex. You need to supply two parameters, see below for more details.
 
 updateMonitoringData(data, callback)
 

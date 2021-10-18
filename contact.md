@@ -6,14 +6,14 @@ permalink: /contact/
 ---
 
 
-Can’t wait to use all everis Plex power?
+Can’t wait to use all Plex power?
 
 Do you want to join us to integrate your Phyapp to our ecosystem?
 
 Contact us to learn more about partnership, prices, conditions and much more.
 
-<a href="mailto:hello@everisplex.com">email: hello@everisplex.com</a>
+<a href="mailto:hello@plexplatform.com">email: hello@plexplatform.com</a>
 
 Or
 
-<a href="mailto:support@everisplex.com">email: support@everisplex.com</a>
+<a href="mailto:support@plexplatform.com">email: support@plexplatform.com</a>

@@ -5,8 +5,8 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site title and description
-title:              everis PLEX
-description:        Support
+title:              PLEX
+description:        Phygital experience platform
 lang:               en
 
 # Site subpath, e.g. /blog
@@ -16,45 +16,36 @@ baseurl:            ""
 permalink:          /:title/
 
 # Site base hostname & protocol, e.g. http://example.com
-url:                "https://everisplex.github.io/"
+url:                "https://plexplatform.github.io/"
 #url: "localhost:4000"
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
 logo: logo.png
-footerlogo: everis.png               
+footerlogo: nttdata.png               
 logosmall: logosmall.png
-
-# Default author settings
-author:
-    name:           Pete Seth
-    title:          Lead Developer  
-    avatar:         https://via.placeholder.com/80x80
 
 # Author settings, displayed on post pages if front matter references author name e.g. author: peter
 authors:
-    evan:
-      name:         Evan Wells
-      title:        Support    
+    nttdata:
+      name:         NTT DATA
+      title:            
       avatar:       https://via.placeholder.com/80x80
-    alex:
-      name:         Alex Koch
-      title:        Design Engineer     
-      avatar:       https://via.placeholder.com/80x80
+
 
 # Social icons displayed in footer
 social:
     email:
     website:
-    facebook:       https://www.facebook.com/everisdobrasil
+    facebook:       
     flickr:
     dribbble:
     github:
     googleplus:
-    instagram:      https://www.instagram.com/everisbrasil/     
-    linkedin:       https://www.linkedin.com/company/everis
+    instagram:      
+    linkedin:       
     pinterest:
-    twitter:        https://twitter.com/everisbrasil
+    twitter:        
     vimeo:          
-    youtube:        https://www.youtube.com/c/everisBrasilOficial/videos
+    youtube:        
 
 # Share button
 share:
@@ -65,7 +56,7 @@ share:
 
 # Default footer image settings
 footer:
-    copyright:      © 2021 everis Plex by everis group. All rights reserved.
+    copyright:      © 2021 Plex by NTT DATA. All rights reserved.
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 disqus:
