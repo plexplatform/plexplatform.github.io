@@ -1,0 +1,49 @@
+#- title: Getting Started
+#  icon: cog
+#  articles:
+#  - installation
+#  - setup
+#  - footer
+
+- title: Developers Support
+  icon: suport
+  articles:
+  - sdk
+  
+- title: FAQ
+  icon: faq
+  articles:
+  - home
+#  - categories
+#  - faq
+#  - cta
+#  - changelog
+#  - contact
+
+- title: Training Request
+  icon: training
+  articles: 
+  - navigation
+
+- title: Submit your app
+  icon: submit
+  articles:
+  - submit
+
+#- title: Newsletter Sign Up
+#  icon: mail
+#  articles:
+#  - mailchimp
+
+#- title: Customization
+#  icon: code
+#  articles:
+#  - translation
+#  - customize
+#  - development
+
+#- title: Help & Sources
+#  icon: question
+#  articles:
+#  - support
+#  - sources
