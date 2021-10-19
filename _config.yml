@@ -19,7 +19,7 @@ permalink:          /:title/
 url:                "https://plexplatform.github.io/"
 #url: "localhost:4000"
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
-logo: logo.png
+logo: logo.svg
 footerlogo: nttdata.png               
 logosmall: logosmall.png
 

@@ -2,7 +2,7 @@
     <div class="uk-container">
         <div data-uk-navbar>
             <div class="uk-navbar-left">
-                <a class="uk-navbar-item uk-logo" href="{{ "/" | relative_url }}">{% if site.logo %}<img style="width: 42%;" src="{{ site.uploads | absolute_url }}{{ site.logo }}" alt="{{ site.title | escape }}">{% else %}{{ site.title | escape }}{% endif %}</a>
+                <a class="uk-navbar-item uk-logo" href="{{ "/" | relative_url }}">{% if site.logo %}<img style="width: 100%;" src="{{ site.uploads | absolute_url }}{{ site.logo }}" alt="{{ site.title | escape }}">{% else %}{{ site.title | escape }}{% endif %}</a>
 
                 <ul class="uk-navbar-nav uk-visible@m">
                     {% for link in site.data.navigation_header.left %}
