@@ -52,13 +52,13 @@ Before starting to use the Plex-SDK you have to install it on your project, the 
 First, run the command below within the context of your project:
 
 ```
-npm install everis-plexsdk
+npm i @plexplatform/sdk
 ```
 
 After executing the previous command, you are able to import the SDK into your project for executing it, just typing in the below command
 
 ```
-const plex = require(‘everis-plexsdk’)
+const plex = require('@plexplatform/sdk’)
 ```
 
 From now on, you are ready to start using Plex-SDK in your project.
